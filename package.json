@@ -9,7 +9,7 @@
     "restart": "pm2 restart ASITHA-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:asitha-new-v99",
+    "@whiskeysockets/baileys": "git+https://gitlab.com/amilaKumara/baileys-pmd.git",
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",

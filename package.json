@@ -8,6 +8,10 @@
     "stop": "pm2 stop ASITHA-MD",
     "restart": "pm2 restart ASITHA-MD"
   },
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://gitlab.com/amilaKumara/baileys-pmd.git",
     "@adiwajshing/keyed-db": "latest",
@@ -48,7 +52,7 @@
     "form-data": "latest",
     "youtubedl-core": "latest",
     "fluent-ffmpeg": "latest",
-    "@sl-code-lords/esana-news" : "latest",
+    "@sl-code-lords/esana-news": "latest",
     "nayan-media-downloader": "latest",
     "getscreenshot.js": "latest",
     "@google/generative-ai": "latest",
@@ -56,12 +60,12 @@
     "@mrnima/facebook-downloader": "latest",
     "@dark-yasiya/imgbb.js": "latest",
     "adm-zip": "^0.5.16",
-    "@dark-yasiya/news-scrap" : "latest",
-    "sharp":"0.34.1",
-    "acrcloud":"latest",
-    "xml2js":"0.6.2",
+    "@dark-yasiya/news-scrap": "latest",
+    "sharp": "0.32.6",
+    "acrcloud": "latest",
+    "xml2js": "0.6.2",
     "jimp": "0.16.1",
     "cricketlive": "latest",
-    "node-cache":  "latest"
+    "node-cache": "latest"
   }
 }
